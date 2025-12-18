@@ -28,11 +28,11 @@
         default_layer {
             display-name = "Base";
             bindings = <
-&kp AMPERSAND  &kp LEFT_BRACKET   &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_PARENTHESIS   &kp EQUAL  &tog 1                                                      &mo 4      &kp ASTERISK  &kp RIGHT_PARENTHESIS  &kp PLUS   &kp RIGHT_BRACKET  &kp EXCLAMATION  &kp HASH
-&kp TAB        &kp SEMI   &kp COMMA &kp DOT   &kp P      &kp Y     &none                                                       &none      &kp F     &kp G    &kp C      &kp R     &kp L            &mo 5
-&lt 3 ESCAPE   &kp A      &kp O     &kp E     &kp U      &kp I     &none     &kp LCTRL  &kp LGUI      &kp LEFT_ALT  &kp RCTRL  &none      &kp D   &kp H   &kp T      &kp N     &kp S     &kp MINUS
-&lt 3 LSHFT     &kp SQT    &kp Q     &kp J     &kp K      &kp X                        &kp HOME      &kp PG_UP                           &kp B   &kp M   &kp W     &kp V     &kp FSLH  &lt 3 RSHFT
-&mo 2          &kp DOLLAR &kp CAPS  &kp LEFT  &kp RIGHT          &kp BSPC  &kp DEL    &kp END       &kp PG_DN     &kp ENTER  &kp SPACE          &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
+&kp DOLLAR    &kp PLUS    &kp LEFT_BRACKET  &kp LEFT_BRACE  &kp LEFT_PARENTHESIS  &kp AMPERSAND  &tog 1                                                      &mo 4      &kp EQUAL  &kp RIGHT_PARENTHESIS  &kp RIGHT_BRACE  &kp RIGHT_BRACKET  &kp STAR  &kp EXCLAMATION
+&kp TAB       &kp SEMI    &kp COMMA         &kp DOT         &kp P                 &kp Y          &none                                                       &none      &kp F      &kp G                  &kp C            &kp R              &kp L     &mo 5
+&lt 3 ESCAPE  &kp A       &kp O             &kp E           &kp U                 &kp I          &none     &kp LCTRL  &kp LGUI      &kp LEFT_ALT  &kp RCTRL  &none      &kp D      &kp H                  &kp T            &kp N              &kp S     &kp MINUS
+&lt 3 LSHFT   &kp SQT     &kp Q             &kp J           &kp K                 &kp X                               &kp HOME      &kp PG_UP                           &kp B      &kp M                  &kp W            &kp V              &kp Z     &lt 3 RSHFT
+&mo 2         &kp DOLLAR  &kp CAPS          &kp LEFT        &kp RIGHT                            &kp BSPC  &kp DEL    &kp END       &kp PG_DN     &kp ENTER  &kp SPACE             &kp UP                 &kp DOWN         &kp LBKT           &kp RBKT  &mo 2
             >;
         };
 
@@ -60,11 +60,11 @@
 
         symbols {
             bindings = <
-&kp N7   &kp N5   &kp N3   &kp N1   &kp N9   &kp N0   &trans                                      &trans  &kp N2              &kp N4               &kp N6            &kp N8            &kp GRAVE         &kp TILDE
-&trans   &kp COLON  &kp LESS_THAN  &kp GREATER_THAN  &kp LS(P)  &kp LS(Y)  &trans                                      &trans  &kp LS(F)          &kp LS(G)          &kp LS(C)         &kp LS(R)         &kp LS(L)         &trans
-&trans   &kp LS(A)  &kp LS(O)      &kp LS(E)        &kp LS(U)  &kp LS(I)  &trans  &trans  &trans      &trans  &trans  &trans  &kp LS(D)          &kp LS(H)          &kp LS(T)         &kp LS(N)         &kp LS(S)         &kp UNDER
-&trans   &kp DOUBLE_QUOTES  &kp LS(Q)  &kp LS(J)  &kp LS(K)  &kp LS(X)                &trans      &trans                  &kp LS(B)          &kp LS(M)         &kp LS(W)        &kp LS(V)        &kp LS(FSLH)     &trans
-&trans   &kp LS(N6)  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans                        &trans                 &trans            &trans             &trans            &trans
+&kp TILDE  &kp NUMBER_1       &kp NUMBER_2   &kp NUMBER_3      &kp NUMBER_4  &kp N5     &trans                                      &trans  &kp NUMBER_6  &kp N7     &kp N8     &kp N9     &kp N0        &kp TILDE
+&trans     &kp COLON          &kp LESS_THAN  &kp GREATER_THAN  &kp LS(P)     &kp LS(Y)  &trans                                      &trans  &kp LS(F)     &kp LS(G)  &kp LS(C)  &kp LS(R)  &kp LS(L)     &trans
+&trans     &kp LS(A)          &kp LS(O)      &kp LS(E)         &kp LS(U)     &kp LS(I)  &trans  &trans  &trans      &trans  &trans  &trans  &kp LS(D)     &kp LS(H)  &kp LS(T)  &kp LS(N)  &kp LS(S)     &kp UNDER
+&trans     &kp DOUBLE_QUOTES  &kp LS(Q)      &kp LS(J)         &kp LS(K)     &kp LS(X)                  &trans      &trans                  &kp LS(B)     &kp LS(M)  &kp LS(W)  &kp LS(V)  &kp LS(FSLH)  &trans
+&trans     &kp LS(N6)         &trans         &trans            &trans                   &trans  &trans  &trans      &trans  &trans  &trans                &trans     &trans     &trans     &trans        &trans
             >;
         };
 
