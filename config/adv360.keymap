@@ -81,11 +81,11 @@
 
         mouse {
             bindings = <
-&trans  &trans  &trans           &trans          &trans           &trans  &trans                                         &trans     &trans  &trans  &trans            &trans              &trans         &trans
-&trans  &trans  &kp LC(LS(TAB))  &mmv MOVE_UP    &kp LC(TAB)      &trans  &trans                                         &trans     &trans  &trans  &msc MOVE_Y(15)   &kp LA(LEFT_ARROW)  &kp LA(RIGHT)  &trans
-&trans  &trans  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans  &trans  &trans      &trans  &trans     &trans     &trans  &trans  &msc MOVE_Y(-15)  &trans              &trans         &trans
-&trans  &trans  &trans           &trans          &trans           &trans                  &trans      &trans                        &trans  &trans  &trans            &trans              &trans         &trans
-&trans  &trans  &trans           &trans          &trans                   &trans  &trans  &trans      &trans  &mkp LCLK  &mkp RCLK          &trans  &trans            &trans              &trans         &trans
+&trans  &trans  &trans           &trans          &trans           &trans  &trans                                            &trans     &trans  &trans  &trans            &trans              &trans         &trans
+&trans  &trans  &kp LC(LS(TAB))  &mmv MOVE_UP    &kp LC(TAB)      &trans  &trans                                            &trans     &trans  &trans  &msc MOVE_Y(15)   &kp LA(LEFT_ARROW)  &kp LA(RIGHT)  &trans
+&trans  &trans  &mmv MOVE_LEFT   &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans     &trans  &trans      &trans  &trans     &trans     &trans  &trans  &msc MOVE_Y(-15)  &trans              &trans         &trans
+&trans  &trans  &trans           &trans          &trans           &trans                     &trans      &trans                        &trans  &trans  &trans            &trans              &trans         &trans
+&trans  &trans  &trans           &trans          &trans                   &mkp LCLK  &trans  &trans      &trans  &mkp LCLK  &mkp RCLK          &trans  &trans            &trans              &trans         &trans
             >;
         };
 
